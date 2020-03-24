@@ -1,0 +1,157 @@
+html {
+  box-sizing: border-box;
+  color: user
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background: #fff url(https://www.techtalentsouth.com/hubfs/TTS-Pattern-06-1900-Medium-Animated.svg) center top no-repeat;
+    font-family: "museo-sans";
+    margin: 0;
+    z-index: -1;
+    padding:0 0 350px 0;
+}
+
+nav {
+  margin-bottom: 0;
+  background-color: white;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+nav img{
+  transform: scale(1.8);
+}
+
+.logo {
+  display: inline;
+  padding: 120px;
+}
+.nav-links {
+  list-style: none;
+  display: inline-flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.nav-item a {
+  display: inline-block;
+  text-decoration: none;
+  color: darkblue;
+  padding: 20px;
+}
+hr{
+  border: 0.5px solid darkblue;
+}
+
+.nav-item:hover a {
+  cursor: pointer;
+}
+
+.logo img {
+  width: 175px;
+  vertical-align: middle;
+}
+.container-3{
+  display: flex;
+  justify-content: flex-end;
+}
+#titleContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.titleP{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#titleRow{
+  padding: 50px;
+}
+h1{
+  color: #151B54;
+  font-size: 6.5rem;
+  line-height: 1.2;
+  font-weight: 500;
+}
+h4{
+  padding: 0 20px;
+  color: #fff;
+  font-size: 2.5rem;
+  line-height: 1.32;    
+  font-weight: 500;
+  letter-spacing: .018rem;
+  text-align: center;
+  margin-bottom: 24px;
+  display: block;
+ } 
+.form-container{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  background-color: #151B54;
+  max-height: none;
+  top: 0;
+  left: 50%;
+  padding: 40px 0 0 0;
+  border-radius: 5%;
+}
+.form-row{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+.button-primary{
+  align-self: center;
+  color: white;
+  background-color: blue;
+  border-radius: 15%;
+  padding: 15px 50px;
+  margin: 60px;
+  border-color: blue;
+}
+.blueButton{
+  align-self: center;
+  color: white;
+  background-color: blue;
+  border-radius: 15%;
+  padding: 15px 50px;
+  border-color: blue;
+}
+.bodyImages{
+  max-width: 50%;
+  vertical-align: bottom;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+}
+.roundedbgd {
+    position: relative;
+    left: -5%;
+    background-color: rgb(51, 51, 255);
+    height: 160px;
+    width: 110%;
+    border-top-left-radius: 200%;
+    border-top-right-radius: 200%;
+}
+.card{
+  display: inline-block;
+  width: 25rem;
+}
+.cardP{
+  display: inline-block;
+  float: right;
+  }
+.cardImage-box{
+  float: right;
+}
+.cardImage{
+  max-width: 100%
+}
